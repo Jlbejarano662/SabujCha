@@ -1,0 +1,82 @@
+/*Da el tamaño y ubicación a nuestro contenido*/ 
+.zerogrid {
+        width:95%;
+        margin: auto;
+}
+/* Filas */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/*Columnas */
+.col-1-3 {
+    width: 33.33%;
+}
+.col-2-3 {
+    width: 66.66%;
+}
+
+.col-2-5 {
+    width: 40%;
+}
+
+.col-3-5 {
+    width: 60%;
+}
+.col-1-2 {
+    width: 50%;
+}
+
+.slider {
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-img {
+    position: relative;
+}
+
+.slider-text {
+    position: absolute;
+    text-align: center;
+}
+
+a {
+    color:#333333;
+}
+
+.banner-left {
+    padding: 60px 0px 60px 120px;
+    width: 75%;
+}
+  
+.banner-right {
+    padding: 60px 120px 60px 0px;
+    width: 75%;
+}
+
+.latest-products {
+    background-image: url("../img/bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* .list-latest-p > ul {
+    float: left;
+    width: 100%;
+} */
+
+.list-latest-p > ul > li {
+    float: left;
+    width: 25%;
+}
+
+.list-latest-p > ul > li > img{
+    width: 85%;
+}
