@@ -16,18 +16,9 @@ ul li {
 }
 
 ul li a {
-  font-size: 13px;
+  font-size: x-small ;
   text-decoration: none;
   display: block;
-  margin: 0;
-  -webkit-transition: color .2s ease;
-  -moz-transition: color .2s ease;
-  -ms-transition: color .2s ease;
-  -o-transition: color .2s ease;
-  transition: color .2s ease;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
 }
 
 #cssmenu > ul > li, .compras > ul > li {
@@ -49,40 +40,43 @@ ul {
   padding: 0%;
 }
 
-#cssmenu > ul > li:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 0;
-  top: 0;
-  z-index: 0;
-  background: #ffffff;
-  -webkit-transition: height .2s;
-  -moz-transition: height .2s;
-  -ms-transition: height .2s;
-  -o-transition: height .2s;
-  transition: height .2s;
-}
+
 
 #cssmenu > ul > li > a, .compras > ul > li > a{
   color:#333333;
   padding: 12px 12px;
   text-transform: uppercase;
   z-index: 2;
-  font-weight: 500;
+  font-weight: bold;
   position: relative;
+  font-family: 'Work Sans', sans-serif;
+  font-size: xx-small;
 }
 
-.logo, .compras {
+.logo {
+  position: absolute;
+  width: 130px;
+  left: calc(50% - 85px);
+}
+.logo {
   padding: 12px 12px;
 }
 
+.compras > ul > li > a {
+  padding: 12px 12px 12px 0px;
+}
 
+.bi-chevron-down {
+  width: 12px;
+  height: 12px;
+  fill: currentColor;
+  margin-left: 6px;
+}
 
-#cssmenu > ul > li:hover:after,
-#cssmenu > ul > li.active:after {
-  height: 100%;
+.bi-cart {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
 }
 
 #cssmenu > ul > li:hover > a,
@@ -95,10 +89,6 @@ ul > li:hover > a:after,
   background: #333333;
 }
 
-ul > li:hover > a:before,
-ul > li.active > a:before {
-  border-top-color: #ffffff;
-}
 
 .centrar {
   justify-content: space-between;
