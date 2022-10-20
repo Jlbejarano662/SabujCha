@@ -1,3 +1,8 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
 /*Da el tamaño y ubicación a nuestro contenido*/ 
 .zerogrid {
         width:95%;
@@ -48,35 +53,89 @@
 a {
     color:#333333;
 }
+.banner {
+    width: 75%;
+    margin: auto;
+    padding: 8% 10%;
+}
 
 .banner-left {
-    padding: 60px 0px 60px 120px;
-    width: 75%;
+    width: 96%;
+    float: left;
 }
   
 .banner-right {
-    padding: 60px 120px 60px 0px;
-    width: 75%;
+    width: 96%;
+    float: right;
 }
 
-.latest-products {
+.products {
     background-image: url("../img/bg-1.jpg");
-    background-repeat: no-repeat;
     background-size: 100%;
     justify-content: center;
     align-items: center;
+}
+
+
+.list-products > ul > li {
+    padding: 2%;
+    width: 21%;
+}
+
+.contenido {
+    padding: 8% 10%;
     text-align: center;
+    margin: auto;
 }
-/* .list-latest-p > ul {
-    float: left;
+
+.newsletter{
+    background-image: url("../img/bg-2.jpg");
+    background-size: 100%;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+.new {
     width: 100%;
-} */
-
-.list-latest-p > ul > li {
-    float: left;
-    width: 25%;
 }
 
-.list-latest-p > ul > li > img{
-    width: 85%;
+.form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.form input[type=text] {
+    padding: 2% 10% 2% 2%;
+}
+.btn {
+    text-transform: uppercase;
+    border: none;
+    padding: 2%;
+}
+.dark {
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+}
+
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: start;
+}
+
+.list-news > ul > li {
+    padding: 1.5%;
+    width: 30.33%;
+}
+
+ul > li > img {
+    width: 100%;
 }
