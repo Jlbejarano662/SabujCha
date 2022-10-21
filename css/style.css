@@ -25,6 +25,7 @@
 }
 .col-1-4 {
     width: 25%;
+    min-width: 120px;
 }
 
 
@@ -136,6 +137,7 @@ a {
 .list-products > ul > li {
     padding: 2%;
     width: 21%;
+    min-width: 165px;
 }
 
 .contenido {
@@ -148,11 +150,20 @@ a {
 .contenido > h3 {
     font-weight: normal;
     font-style: italic;
-    margin-bottom: 3%;
+    max-width: 600px;
+    margin: auto auto 3% auto;
 }
+
+.contenido > p {
+    max-width: 500px;
+    margin: auto auto 3% auto;
+}
+
 .footer {
     display: flex;
     text-align: left;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .bg-2{
     background-image: url("../img/bg-2.jpg");
@@ -202,9 +213,11 @@ ul {
 .list-news > ul > li {
     padding: 1.5%;
     width: 30.33%;
+    min-width: 165px;
 }
 .list-colab > ul > li {
     width: 20%;
+    min-width: 150px;
 }
 
 ul > li > img {
@@ -228,6 +241,7 @@ ul > li > p > span {
     text-align: center;
     font-size: 13px;
     padding: 1.5% 0px;
+
 }
 
 .col-footer > img {
@@ -253,7 +267,7 @@ ul > li > p > span {
     font-family: 'Work Sans', sans-serif;
 }
 
-.text-author {
+.contenido > p.text-author {
     text-transform: uppercase;
     font-family: 'Work Sans', sans-serif;
     font-size: x-small;
@@ -375,7 +389,7 @@ ul > li > p > span {
     h2 {
         margin-bottom: 10%;
     }
-    .contenido > p{
+    .contenido > p {
         font-size: small;
         margin-bottom: 10%;
     }
