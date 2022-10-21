@@ -1,6 +1,5 @@
 #cssmenu {
   width: auto;
-  padding: 0;
   line-height: 1;
   display: block;
   position: relative;
@@ -9,8 +8,6 @@
 }
 
 ul li {
-  margin: 0;
-  padding: 0;
   display: block;
   position: relative;
 }
@@ -27,22 +24,13 @@ ul li a {
 
 .align-right > ul {
   float: right;
-  margin: 0;
 }
 
 .align-left {
   float: left;
-  margin: 0;
 }
 
-ul {
-  margin: 0;
-  padding: 0%;
-}
-
-
-
-#cssmenu > ul > li > a, .compras > ul > li > a{
+#cssmenu > ul > li > a, .compras > ul > li > a {
   color:#333333;
   padding: 12px 12px;
   text-transform: uppercase;
@@ -79,7 +67,8 @@ ul {
 }
 
 #cssmenu > ul > li:hover > a,
-#cssmenu > ul > li.active > a {
+#cssmenu > ul > li.active > a,
+.compras > ul > li > a:hover {
   color: #529F0F;
 }
 
@@ -91,12 +80,14 @@ ul > li:hover > a:after,
 
 .centrar {
   justify-content: space-between;
+  padding: 1% 0%;
 }
 
 .menu {
   display: none;
 }
 
+/* mobile cell phone screens */
 @media (max-width: 480px) {
     #cssmenu {
       display: none;
