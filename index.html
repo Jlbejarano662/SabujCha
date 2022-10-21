@@ -121,22 +121,22 @@
             </div>
 			<div class="row">
 				<div class="contenido">
-					<img src="img/testi.png" alt="testi">
+					<img src="img/testi.png" alt="testi" class="img-plant">
 					<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do <br> eiusmod tempor incididunt ut labore</h3>
-					<p><b>Gregory Perkins</b></p>
-					<p>Customer</p>
+					<p class="text-author"><b>Gregory Perkins</b></p>
+					<p class="text-customer">Customer</p>
 				</div>
 			</div>
 			<div class="row bg-3">
                 <div class="contenido">
-                    <h2>Latest Products</h2>
+                    <h2>New Products</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do <br> eiusmod tempor incididunt</p>
                     <div class="list-products">
                         <ul>
                             <li>
                                 <img src="img/product-1.jpg">
 								<h4>Nature Close Tea</h4>
-								<p><b>$100.00</b> - $120.00</p>
+								<p>$100.00 - <span>$120.00</span></p>
 								<div class="circle">
 									<p>-30%</p>
 								</div>
@@ -144,7 +144,7 @@
                             <li>
                                 <img src="img/product-3.jpg" alt="">
 								<h4>Pink wave Cup</h4>
-								<p><b>$100.00</b> - $120.00</p>
+								<p>$100.00 - <span>$120.00</span></p>
 								<div class="circle">
 									<p>-60%</p>
 								</div>
@@ -152,12 +152,12 @@
                             <li>
                                 <img src="img/product-5.jpg" alt="">
 								<h4>Tea and Chai</h4>
-								<p><b>$100.00</b> - $120.00</p>
+								<p>$100.00 - <span>$120.00</span></p>
                             </li>
                             <li>
                                 <img src="img/product-7.jpg" alt="">
 								<h4>Pearly Everlasting</h4>
-								<p><b>$100.00</b> - $120.00</p>
+								<p>$100.00 - <span>$120.00</span></p>
 								<div class="circle">
 									<p>-60%</p>
 								</div>
@@ -165,7 +165,7 @@
 							<li>
                                 <img src="img/product-2.jpg">
 								<h4>Nature Close Tea</h4>
-								<p><b>$100.00</b> - $120.00</p>
+								<p>$100.00 - <span>$120.00</span></p>
 								<div class="circle">
 									<p>-50%</p>
 								</div>
@@ -173,12 +173,12 @@
                             <li>
                                 <img src="img/product-4.jpg" alt="">
 								<h4>Pink wave Cup</h4>
-								<p><b>$100.00</b> - $120.00</p>
+								<p>$100.00 - <span>$120.00</span></p>
                             </li>
                             <li>
                                 <img src="img/product-6.jpg" alt="">
 								<h4>Tea and Chai</h4>
-								<p><b>$100.00</b> - $120.00</p>
+								<p>$100.00 - <span>$120.00</span></p>
 								<div class="circle">
 									<p>-40%</p>
 								</div>
@@ -186,7 +186,7 @@
                             <li>
                                 <img src="img/product-8.jpg" alt="">
 								<h4>Pearly Everlasting</h4>
-								<p><b>$100.00</b> - $120.00</p>
+								<p>$100.00 - <span>$120.00</span></p>
                             </li>
                         </ul>
                     </div>
@@ -197,32 +197,32 @@
 					<h2>Join to our Newsletter</h2>
 					<div class="form">
 						<input type="text" placeholder="Your Email Address*">
-						<input type="button" class="btn dark" value="Subscribirse">
+						<input type="button" class="btn dark" value="Subscribe">
 					</div>
                 </div>
             </div>
 			<div class="row bg-1">
                 <div class="contenido">
-                    <h2>Latest News</h2>
+                    <h2 class="title-news">Latest News</h2>
                     <div class="list-news">
                         <ul>
                             <li>
                                 <img src="img/blog-single-1.jpg">
-								<h3>Lorem ipsum sit ame co.</h3>
 								<a href="#" class="date">14 sep</a>
+								<h3>Lorem ipsum sit ame co.</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius tempor incidiunt ut labore et dolore.</p>
 								<a href="#" class="more">Read More</a>
                             </li>
                             <li>
                                 <img src="img/blog-single-2.jpg">
-								<a href="#" class="date">18 Aug</a>
+								<a href="#" class="date">20 Dec</a>
 								<h3>Lorem ipsum sit ame co.</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius tempor incidiunt ut labore et dolore.</p>
 								<a href="#" class="more">Read More</a>
                             </li>
                             <li>
 			                    <img src="img/blog-single-3.jpg">
-								<a href="#" class="date">20 Dec</a>
+								<a href="#" class="date">18 Aug</a>
 								<h3>Lorem ipsum sit ame co.</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius tempor incidiunt ut labore et dolore.</p>
 								<a href="#" class="more">Read More</a>
@@ -289,6 +289,7 @@
 						</div>
 						<div class="col-1-4">
 							<h5>Your address goes here</h5>
+							<p>Your address goes here</p>
 							<br>
 							<p>0123456789</p>
 							<p>0123456789</p>
@@ -300,7 +301,7 @@
 				</div>
 				<div class="row bg-4">
 					<div class="col-1-2 col-footer">
-						<p>© 2021 <b>SabujCha</b> Made With &#x2764; By <b>HasThemes.</b></p>
+						<p>© 2021 <b>SabujCha</b> Made With <span class="heart">&#x2764;</span> By <b>HasThemes.</b></p>
 					</div>
 					<div class="col-1-2 col-footer">
 						<img src="img/payment.png" alt="payment">
