@@ -463,13 +463,14 @@ ul > li > p > span {
         justify-content: center;
     }
 
-    ul > li > img {
+    .list-colab > ul > li > img {
         width: 50%;
         margin: 10%;
     }
 
     .footer {
         display: block;
+        padding-bottom: 4%;
     }
 
     .footer .col-1-4 > h5 {
@@ -480,5 +481,19 @@ ul > li > p > span {
     .footer .col-1-4 > p {
         margin-bottom: 5%;
         font-size: smaller;
+    }
+
+    .col-sm-footer{
+        margin-bottom: 10%;
+    }
+
+
+    .col-footer > img {
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+    .col-footer > p {
+        margin-top: 5%;
     }
 }

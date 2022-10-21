@@ -57,10 +57,9 @@ ul {
   position: absolute;
   width: 130px;
   left: calc(50% - 85px);
-}
-.logo {
   padding: 12px 12px;
 }
+
 
 .compras > ul > li > a {
   padding: 12px 12px 12px 0px;
@@ -94,3 +93,34 @@ ul > li:hover > a:after,
   justify-content: space-between;
 }
 
+.menu {
+  display: none;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #cssmenu {
+      display: none;
+    }
+
+    .centrar {
+      justify-content: end;
+      padding: 5%;
+      width: 90%;
+    }
+
+    .logo {
+      left: 5%;
+      top: 1%;
+    }
+
+    .compras > ul > li > a {
+      font-size: small;
+    }
+
+    .menu {
+      display: block;
+      width: 30px;
+      height: 30px;
+      padding-left: 40px
+    }
+}
